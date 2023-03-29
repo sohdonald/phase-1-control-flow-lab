@@ -2,12 +2,12 @@
   "stats": {
     "suites": 4,
     "tests": 9,
-    "passes": 4,
+    "passes": 6,
     "pending": 0,
-    "failures": 5,
-    "start": "2023-03-29T06:32:48.819Z",
-    "end": "2023-03-29T06:32:49.317Z",
-    "duration": 498
+    "failures": 3,
+    "start": "2023-03-29T21:08:37.222Z",
+    "end": "2023-03-29T21:08:37.741Z",
+    "duration": 519
   },
   "tests": [
     {
@@ -20,14 +20,14 @@
     {
       "title": "charges 20 dollars for a distance between 400 and 2000 feet",
       "fullTitle": "index.js scuberGreetingForFeet() charges 20 dollars for a distance between 400 and 2000 feet",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "charges 30 dollars for a distance over 2000 feet",
       "fullTitle": "index.js scuberGreetingForFeet() charges 30 dollars for a distance over 2000 feet",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -41,31 +41,21 @@
     {
       "title": "returns \"Ok, sounds good.\" when the city is NYC",
       "fullTitle": "index.js ternaryCheckCity() returns \"Ok, sounds good.\" when the city is NYC",
-      "duration": 2,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 'Ok, sounds good.'",
-        "showDiff": true,
-        "expected": "Ok, sounds good.",
-        "stack": "AssertionError: expected undefined to equal 'Ok, sounds good.'\n    at Context.<anonymous> (test/indexTest.js:24:42)\n    at processImmediate (internal/timers.js:461:21)"
-      }
+      "err": {}
     },
     {
       "title": "should return \"No go.\" if the destination city is not NYC",
       "fullTitle": "index.js ternaryCheckCity() should return \"No go.\" if the destination city is not NYC",
       "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 'No go.'",
-        "showDiff": true,
-        "expected": "No go.",
-        "stack": "AssertionError: expected undefined to equal 'No go.'\n    at Context.<anonymous> (test/indexTest.js:28:49)\n    at processImmediate (internal/timers.js:461:21)"
-      }
+      "err": {}
     },
     {
       "title": "should return \"Thank you so much.\" if the tip is generous",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you so much.\" if the tip is generous",
-      "duration": 0,
+      "duration": 2,
       "currentRetry": 0,
       "err": {
         "message": "expected undefined to equal 'Thank you so much.'",
@@ -77,7 +67,7 @@
     {
       "title": "should return \"Thank you.\" if the tip is not as generous",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you.\" if the tip is not as generous",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "message": "expected undefined to equal 'Thank you.'",
@@ -102,33 +92,9 @@
   "pending": [],
   "failures": [
     {
-      "title": "returns \"Ok, sounds good.\" when the city is NYC",
-      "fullTitle": "index.js ternaryCheckCity() returns \"Ok, sounds good.\" when the city is NYC",
-      "duration": 2,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 'Ok, sounds good.'",
-        "showDiff": true,
-        "expected": "Ok, sounds good.",
-        "stack": "AssertionError: expected undefined to equal 'Ok, sounds good.'\n    at Context.<anonymous> (test/indexTest.js:24:42)\n    at processImmediate (internal/timers.js:461:21)"
-      }
-    },
-    {
-      "title": "should return \"No go.\" if the destination city is not NYC",
-      "fullTitle": "index.js ternaryCheckCity() should return \"No go.\" if the destination city is not NYC",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 'No go.'",
-        "showDiff": true,
-        "expected": "No go.",
-        "stack": "AssertionError: expected undefined to equal 'No go.'\n    at Context.<anonymous> (test/indexTest.js:28:49)\n    at processImmediate (internal/timers.js:461:21)"
-      }
-    },
-    {
       "title": "should return \"Thank you so much.\" if the tip is generous",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you so much.\" if the tip is generous",
-      "duration": 0,
+      "duration": 2,
       "currentRetry": 0,
       "err": {
         "message": "expected undefined to equal 'Thank you so much.'",
@@ -140,7 +106,7 @@
     {
       "title": "should return \"Thank you.\" if the tip is not as generous",
       "fullTitle": "index.js switchOnCharmFromTip() should return \"Thank you.\" if the tip is not as generous",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "message": "expected undefined to equal 'Thank you.'",
@@ -173,14 +139,14 @@
     {
       "title": "charges 20 dollars for a distance between 400 and 2000 feet",
       "fullTitle": "index.js scuberGreetingForFeet() charges 20 dollars for a distance between 400 and 2000 feet",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "charges 30 dollars for a distance over 2000 feet",
       "fullTitle": "index.js scuberGreetingForFeet() charges 30 dollars for a distance over 2000 feet",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -188,6 +154,20 @@
       "title": "does not allow rides over 2500 feet",
       "fullTitle": "index.js scuberGreetingForFeet() does not allow rides over 2500 feet",
       "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns \"Ok, sounds good.\" when the city is NYC",
+      "fullTitle": "index.js ternaryCheckCity() returns \"Ok, sounds good.\" when the city is NYC",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return \"No go.\" if the destination city is not NYC",
+      "fullTitle": "index.js ternaryCheckCity() should return \"No go.\" if the destination city is not NYC",
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     }
